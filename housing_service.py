@@ -180,9 +180,9 @@ class HousingApplicationService:
         """Return the appointment for an application, if it has one."""
         return self.appointments.get(application_id)
 
-
+# Illustrative eligibility rule: the annual household income must not exceed £30,000.
 def check_eligibility(annual_income: float, household_size: int) -> List[str]:
-    """Return example-rule failure reasons (empty means eligible)."""
+    """Return example-rule failure reasons """
     reasons = []
     if annual_income > MAX_ANNUAL_HOUSEHOLD_INCOME:
         reasons.append(
