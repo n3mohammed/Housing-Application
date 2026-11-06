@@ -32,6 +32,10 @@ The scenarios in `features/housing.feature` invoke the actual
 `HousingApplicationService` through the step definitions in `features/steps/`.
 The feature file also covers booking an appointment and checking its details.
 
+BDD Testing:
+The project uses Behave to execute Gherkin scenarios
+against the housing application service.
+
 ## Example eligibility assumptions
 
 For demonstration only, the prototype accepts a complete application when
