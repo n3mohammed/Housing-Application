@@ -3,6 +3,8 @@ Feature: Housing application eligibility and management
   I want to submit an application and check its status
   So that I can understand the outcome of my application
 
+# Eligibility thresholds are illustrative assumptions for this prototype.
+
   Scenario: Submit a complete application that meets the example criteria
     Given a new housing application service
     When I submit an application for "Alex Green" with annual income 24000 and household size 2
